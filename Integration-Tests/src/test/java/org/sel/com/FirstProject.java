@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -28,6 +29,12 @@ public class FirstProject {
 		WebElement element= driver.findElement(By.xpath("//a[@title=\"Software Testing\"]"));
 		element.click();
 		
+	} 
+	
+	
+	@Test 
+	public void testcaseTwo() {
+		Assert.assertTrue(true);
 	}
 	
 	@AfterTest
