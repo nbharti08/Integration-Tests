@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77804" started-at="2019-10-22T21:49:51 IST" finished-at="2019-10-22T21:51:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77804" started-at="2019-10-22T21:49:51 IST" finished-at="2019-10-22T21:51:09 IST">
+      <class name="org.sel.com.FirstProject">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.sel.com.FirstProject@2b2948e2]" name="setUp" is-config="true" duration-ms="53262" started-at="2019-10-22T21:49:51 IST" finished-at="2019-10-22T21:50:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseOne()[pri:0, instance:org.sel.com.FirstProject@2b2948e2]" name="testcaseOne" duration-ms="24142" started-at="2019-10-22T21:50:45 IST" finished-at="2019-10-22T21:51:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseOne -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.sel.com.FirstProject@2b2948e2]" name="tearDown" is-config="true" duration-ms="332" started-at="2019-10-22T21:51:09 IST" finished-at="2019-10-22T21:51:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.sel.com.FirstProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
